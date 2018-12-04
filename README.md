@@ -14,6 +14,9 @@ Credit given to tkART/TruliaScrape for the baseline version (https://github.com/
 * Deployment update to allow for AWS Lambda scheduling
 * Add cleaned requirements.txt for user deployment
 * Port to use puppeteer and node.js
+* Incorporate [ratelimit](https://github.com/tomasbasham/ratelimit) python module and remove repeated random time generation - create a urlGetter function to reuse
+
+
 
 
 ## Modules
